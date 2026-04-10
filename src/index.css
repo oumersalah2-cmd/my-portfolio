@@ -470,3 +470,87 @@ footer span {
   background-color: #64ffda;
   color: #0a0a0a;
 }
+
+/* =================== MOBILE RESPONSIVE =================== */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  nav {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 5%;
+    text-align: center;
+  }
+
+  nav ul {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* HERO */
+  #hero {
+    padding: 0 5%;
+    height: auto;
+    padding-top: 180px;
+    padding-bottom: 80px;
+  }
+
+  #hero h1 {
+    font-size: 32px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+  }
+
+  #hero p {
+    font-size: 16px;
+  }
+
+  /* SKILLS */
+  #skills {
+    padding: 80px 5%;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* PROJECTS */
+  #projects {
+    padding: 80px 5%;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* GITHUB CARD */
+  .github-card {
+    margin: 0 5% 80px 5%;
+  }
+
+  .github-stats {
+    gap: 20px;
+  }
+
+  /* CONTACT */
+  #contact {
+    padding: 80px 5%;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* THEME TOGGLE */
+  .theme-toggle {
+    bottom: 20px;
+    right: 20px;
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+
+}
